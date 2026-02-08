@@ -1,0 +1,24 @@
+{
+  "items": {},
+  "categories": ["Waffen", "Drogen", "Materialien"],
+  "history": {},
+  "users": [],
+  "logs": [],
+  "stats": [],
+  "settings": {
+    "lastUserId": "",
+    "report": {
+      "title": "Lagerbericht",
+      "includeItems": true,
+      "includeDashboard": true,
+      "includeLogs": true,
+      "includeUsers": false,
+      "includeCharts": true,
+      "onlyLowStock": false,
+      "logDays": 30
+    },
+    "webhooks": {
+      "liveMessageId": ""
+    }
+  }
+}
