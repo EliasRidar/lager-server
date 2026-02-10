@@ -329,7 +329,14 @@ canvas{width:100%;height:240px;}
   </div>
 </div>
 
-<script>
+
+  <script src="https://cdn.jsdelivr.net">
+
+  const supabaseUrl = 'https://noxrffgpooxhgbgxvnyw.supabase.com'
+  const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5veHJmZmdwb294aGdiZ3h2bnl3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA2NzY3NzEsImV4cCI6MjA4NjI1Mjc3MX0.FynZeHNEl_fbZL2esohFpdwZzKbMy66rEHDypOGULM0'
+  const supabase = supabase.createClient(supabaseUrl, supabaseKey)
+
+
 const STORAGE_KEY = 'lager_local_v4';
 const THEME_KEY = 'lager_theme';
 const LIVE_TABLE_WEBHOOK = 'https://discord.com/api/webhooks/1448465091199635518/bKMPlZhx32ffSTG3SuXspC8h7N3_R3fsxXEjztUiLrn_RtmgCgFCLne53tSZ2LnfZ0Nl';
